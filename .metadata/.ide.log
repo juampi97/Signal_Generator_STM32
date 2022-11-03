@@ -1,0 +1,28 @@
+2022-07-27 17:05:06,816 [INFO] Activator:177 - 
+
+
+2022-07-27 17:05:06,817 [INFO] Activator:178 - !SESSION log4j initialized
+2022-07-27 17:05:09,945 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-07-27 17:05:31,776 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [log;-0300 2022.07.27 17:05:31:771;ERROR;org.eclipse.ecf.identity;org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.identity;code=4;message=Namespace cannot be null;severity4;exception=org.eclipse.ecf.core.identity.IDCreateException: Namespace cannot be null;children=[]]]
+2022-07-27 17:05:31,779 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] org.eclipse.ecf.core.identity.IDCreateException: Namespace cannot be null
+2022-07-27 17:05:31,783 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.ecf.core.identity.IDFactory.logAndThrow(IDFactory.java:174)
+2022-07-27 17:05:31,785 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.ecf.core.identity.IDFactory.createID(IDFactory.java:190)
+2022-07-27 17:05:31,789 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.ecf.filetransfer.identity.FileIDFactory.createFileID(FileIDFactory.java:120)
+2022-07-27 17:05:31,790 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.ecf.filetransfer.identity.FileIDFactory.createFileID(FileIDFactory.java:78)
+2022-07-27 17:05:31,793 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:455)
+2022-07-27 17:05:31,795 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:387)
+2022-07-27 17:05:31,797 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:107)
+2022-07-27 17:05:31,800 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:166)
+2022-07-27 17:05:31,803 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.handleRemoteIndexFile(AbstractRepositoryManager.java:738)
+2022-07-27 17:05:31,807 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:732)
+2022-07-27 17:05:31,811 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:674)
+2022-07-27 17:05:31,815 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+2022-07-27 17:05:31,818 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+2022-07-27 17:05:31,822 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+2022-07-27 17:05:31,826 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+2022-07-27 17:05:31,832 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+2022-07-31 20:53:32,943 [INFO] Activator:177 - 
+
+
+2022-07-31 20:53:32,945 [INFO] Activator:178 - !SESSION log4j initialized
+2022-07-31 20:53:37,985 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
